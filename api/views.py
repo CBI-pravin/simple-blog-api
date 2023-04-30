@@ -16,7 +16,7 @@ class RegisterUserAPI(APIView):
     
 
     def post(self,request):
-        serializer = MyUserSerializer(data = request.data,context = {"author":request.user.email})
+        serializer = MyUserSerializer(data = request.data)
 
         if serializer.is_valid():
             serializer.save()
