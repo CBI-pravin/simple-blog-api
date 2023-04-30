@@ -39,49 +39,60 @@ Thia is the simple blog website with CRUDE operations
 
 3 >   To get list of all blog type http://127.0.0.1:8000/api/ with GET method it will produce this type of output :
       this output will have id of blog, title, content, author(owner of blog), published date, updated date, likes count
+      
       output format : 
-      [
-        {
-            "id": "16330829-7ee6-4a7e-847a-6049a10a2f9f",
-            "title": "Where does it come from?",
-            "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
-            "author": "pravin@gmail.com",
-            "published_date": "2023-04-30T12:35:55.107946Z",
-            "updated_date": "2023-04-30T12:40:29.977066Z",
-            "likes": 3,
-            "is_deleted": false
-        },
-        {
-            "id": "1dccccbe-5611-4c5e-870a-5c1a08e9f369",
-            "title": "Where can I get some?",
-            "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-            "author": "pravin123@gmail.com",
-            "published_date": "2023-04-30T12:35:29.348829Z",
-            "updated_date": "2023-04-30T12:40:23.306359Z",
-            "likes": 4,
-            "is_deleted": false
-        },
-        {
-            "id": "2bf9dd7e-b559-47ce-b672-224b4ad2ac19",
-            "title": "What is Lorem Ipsum?",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "author": "pravin1222@gmail.com",
-            "published_date": "2023-04-30T12:35:10.351539Z",
-            "updated_date": "2023-04-30T12:40:18.481881Z",
-            "likes": 2,
-            "is_deleted": false
-        },
-        {
-            "id": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
-            "title": "Why do we use it?",
-            "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-            "author": "pravin@gmail.com",
-            "published_date": "2023-04-30T12:34:46.320092Z",
-            "updated_date": "2023-04-30T12:40:13.830471Z",
-            "likes": 2,
-            "is_deleted": false
-        }
-    ]
+                      [
+                    {
+                        "id": "fc6ac6b4-830d-4d1f-bc6f-44c0439e066f",
+                        "title": "give one more",
+                        "content": "NEW REPLY reply from 1 to 2 to lgood one",
+                        "author": "pravin123@gmail.com",
+                        "published_date": "2023-04-30T13:16:35.897204Z",
+                        "updated_date": "2023-04-30T13:16:35.897204Z",
+                        "likes": 0,
+                        "is_deleted": false
+                    },
+                    {
+                        "id": "16330829-7ee6-4a7e-847a-6049a10a2f9f",
+                        "title": "Where does it come from?",
+                        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+                        "author": "pravin@gmail.com",
+                        "published_date": "2023-04-30T12:35:55.107946Z",
+                        "updated_date": "2023-04-30T12:40:29.977066Z",
+                        "likes": 3,
+                        "is_deleted": false
+                    },
+                    {
+                        "id": "1dccccbe-5611-4c5e-870a-5c1a08e9f369",
+                        "title": "Where can I get some?",
+                        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                        "author": "pravin123@gmail.com",
+                        "published_date": "2023-04-30T12:35:29.348829Z",
+                        "updated_date": "2023-04-30T12:40:23.306359Z",
+                        "likes": 4,
+                        "is_deleted": false
+                    },
+                    {
+                        "id": "2bf9dd7e-b559-47ce-b672-224b4ad2ac19",
+                        "title": "What is Lorem Ipsum?",
+                        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                        "author": "pravin1222@gmail.com",
+                        "published_date": "2023-04-30T12:35:10.351539Z",
+                        "updated_date": "2023-04-30T12:40:18.481881Z",
+                        "likes": 2,
+                        "is_deleted": false
+                    },
+                    {
+                        "id": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
+                        "title": "Why do we use it?",
+                        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+                        "author": "pravin@gmail.com",
+                        "published_date": "2023-04-30T12:34:46.320092Z",
+                        "updated_date": "2023-04-30T12:40:13.830471Z",
+                        "likes": 2,
+                        "is_deleted": false
+                    }
+                ]
 
 
 4 >  To create new blog post we need to login first which will create authorization token and we need to add it to headders of API Postman Tester
@@ -194,42 +205,61 @@ Thia is the simple blog website with CRUDE operations
 
 9 > To view all comments of particular blog go to http://127.0.0.1:8000/api/comment/<slug:ID-OF BLOG>/   make a GET request
      EG : http://127.0.0.1:8000/api/comment/57b58d09-a7e3-4b13-a08d-11fdd1ea039b/
-
   thw field  replies are the reply to that comment 
-  
   successfully implemented nested reples , comment module
 
-  output:
-           [
+              output:[
                 {
-                    "id": "3852b22b-9521-4723-a4e1-80c74255226b",
-                    "blog": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
-                    "owner": "pravin@gmail.com",
-                    "content": "very good blog",
-                    "created_date": "2023-04-30T12:36:22.080940Z",
-                    "replies": [
-                        {
-                            "id": "1df1a5fb-0867-49c9-ae01-73c943d1da41",
-                            "blog": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
-                            "owner": "pravin12@gmail.com",
-                            "content": "nicely done",
-                            "created_date": "2023-04-30T12:36:37.693605Z",
-                            "replies": [
-                                {
-                                    "id": "7b8b041b-2dff-46b3-8a0d-c4f44f6dd407",
-                                    "blog": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
-                                    "owner": "pravin123@gmail.com",
-                                    "content": "great job",
-                                    "created_date": "2023-04-30T12:36:57.028933Z",
-                                    "replies": []
-                                }
-                            ]
-                        }
-                    ]
+                    "id": "fc6ac6b4-830d-4d1f-bc6f-44c0439e066f",
+                    "title": "give one more",
+                    "content": "NEW REPLY reply from 1 to 2 to lgood one",
+                    "author": "pravin123@gmail.com",
+                    "published_date": "2023-04-30T13:16:35.897204Z",
+                    "updated_date": "2023-04-30T13:16:35.897204Z",
+                    "likes": 0,
+                    "is_deleted": false
+                },
+                {
+                    "id": "16330829-7ee6-4a7e-847a-6049a10a2f9f",
+                    "title": "Where does it come from?",
+                    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+                    "author": "pravin@gmail.com",
+                    "published_date": "2023-04-30T12:35:55.107946Z",
+                    "updated_date": "2023-04-30T12:40:29.977066Z",
+                    "likes": 3,
+                    "is_deleted": false
+                },
+                {
+                    "id": "1dccccbe-5611-4c5e-870a-5c1a08e9f369",
+                    "title": "Where can I get some?",
+                    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                    "author": "pravin123@gmail.com",
+                    "published_date": "2023-04-30T12:35:29.348829Z",
+                    "updated_date": "2023-04-30T12:40:23.306359Z",
+                    "likes": 4,
+                    "is_deleted": false
+                },
+                {
+                    "id": "2bf9dd7e-b559-47ce-b672-224b4ad2ac19",
+                    "title": "What is Lorem Ipsum?",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                    "author": "pravin1222@gmail.com",
+                    "published_date": "2023-04-30T12:35:10.351539Z",
+                    "updated_date": "2023-04-30T12:40:18.481881Z",
+                    "likes": 2,
+                    "is_deleted": false
+                },
+                {
+                    "id": "57b58d09-a7e3-4b13-a08d-11fdd1ea039b",
+                    "title": "Why do we use it?",
+                    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+                    "author": "pravin@gmail.com",
+                    "published_date": "2023-04-30T12:34:46.320092Z",
+                    "updated_date": "2023-04-30T12:40:13.830471Z",
+                    "likes": 2,
+                    "is_deleted": false
                 }
             ]
-  
-  
 
 
 10  > to create new comment make POST request to http://127.0.0.1:8000/api/comment/<slug:ID-OF BLOG>/
@@ -245,6 +275,7 @@ Thia is the simple blog website with CRUDE operations
         { "blog":"57b58d09-a7e3-4b13-a08d-11fdd1ea039b",   
           "content":" here is your comment"
           }
+          
           
      output format : 
             {
@@ -296,25 +327,25 @@ Thia is the simple blog website with CRUDE operations
 12  > To search a blog with keyword make POST request to  http://127.0.0.1:8000/api/search/
     NOTE : search will take keywords  and try to search it in title of each blog post and return the blog which matches to that keyword
 
-  input formar : 
-          {
-              "search" :" Lorem"
-          }
+              input formar : 
+                      {
+                          "search" :" Lorem"
+                      }
 
     
-  output format :
-              [
-              {
-                  "id": "2bf9dd7e-b559-47ce-b672-224b4ad2ac19",
-                  "title": "What is Lorem Ipsum?",
-                  "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-                  "author": "pravin1222@gmail.com",
-                  "published_date": "2023-04-30T12:35:10.351539Z",
-                  "updated_date": "2023-04-30T12:40:18.481881Z",
-                  "likes": 2,
-                  "is_deleted": false
-              }
-          ]
+          output format :
+                      [
+                      {
+                          "id": "2bf9dd7e-b559-47ce-b672-224b4ad2ac19",
+                          "title": "What is Lorem Ipsum?",
+                          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                          "author": "pravin1222@gmail.com",
+                          "published_date": "2023-04-30T12:35:10.351539Z",
+                          "updated_date": "2023-04-30T12:40:18.481881Z",
+                          "likes": 2,
+                          "is_deleted": false
+                      }
+                  ]
 
 
 
