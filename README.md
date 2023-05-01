@@ -1,6 +1,51 @@
 # simple-blog-api
 
-Thia is the simple blog website with CRUDE operations
+This is the simple blog website with CRUDE operations
+I had implemented token based authentication in this project and also nested comment and replies system and a simple keyword search functionality .
+
+Note: User need to add his generated token in headders of POSTMAN API while making request other than GET method 
+
+
+Input format: 
+
+
+
+     Key : Authorization     Values : token f0b26fa7d47820c968ed30608d58d6a793e3ec95
+
+features include : 
+
+    1 > Register User
+    
+    2 > Login user
+       
+    3 > List of all Blog's
+       
+    4 > Add new Blog
+        
+    5 > View Single Blog in detail
+     
+    6 > Like a particular Blog
+       
+    7 > Update Blog ( make changes in Title or Content )
+       
+    8 > Delete Blog
+       
+    9 > View all comments of particular Blog
+       
+    10 > Add new comment to particular Blog
+        
+    11 > Add reply to Comment
+       
+    12 > Search a Blog
+    
+    
+     
+     
+ 
+    
+    
+
+
 1 > To register user type http://127.0.0.1:8000/api/register/ in url with POST method only 
     I had implemented token based authentication for user so we need to create new token while registering new user
     
@@ -20,8 +65,10 @@ Thia is the simple blog website with CRUDE operations
         }
 
 2 > To login user type  http://127.0.0.1:8000/api/login/ with POST method only
+
       format of input to login user : 
-         here username is the user's email address
+      here username is the user's email address
+      
       
         {"username":"pravin@1234gmail.com",
         "password" :"Pravin@1234"
@@ -122,6 +169,7 @@ Thia is the simple blog website with CRUDE operations
 
 
 5 > To view a single blog in detail go to http://127.0.0.1:8000/api/detail/<slug:ID-OF BLOG>/  with GET method 
+
     EG : http://127.0.0.1:8000/api/detail/aaf101e6-3706-4f65-a268-249956c3f2b5/ 
 
     output :
@@ -137,6 +185,7 @@ Thia is the simple blog website with CRUDE operations
         }
 
 6 > To like Blog post we need to make POST METHOD request to this url http://127.0.0.1:8000/api/detail/<slug:ID-OF BLOG>/
+
     EG : http://127.0.0.1:8000/api/detail/aaf101e6-3706-4f65-a268-249956c3f2b5/ 
     
     this will add the current requested user to likes of that blog post
@@ -158,6 +207,8 @@ Thia is the simple blog website with CRUDE operations
 
 
 7  > To make any changes to title or content of blog post make PUT request to this url http://127.0.0.1:8000/api/detail/<slug:ID-OF BLOG>/
+
+
       EG : http://127.0.0.1:8000/api/detail/aaf101e6-3706-4f65-a268-249956c3f2b5/ 
       
       note : changes are only allowed when requested user is author of blog post
@@ -187,6 +238,8 @@ Thia is the simple blog website with CRUDE operations
 
 
 8 > To delete blog post make DELETE request to this url http://127.0.0.1:8000/api/detail/<slug:ID-OF BLOG>/
+
+
       EG : http://127.0.0.1:8000/api/detail/aaf101e6-3706-4f65-a268-249956c3f2b5/ 
 
       note : Delete is only allowed when requested user is author of blog post
@@ -204,6 +257,8 @@ Thia is the simple blog website with CRUDE operations
 
 
 9 > To view all comments of particular blog go to http://127.0.0.1:8000/api/comment/<slug:ID-OF BLOG>/   make a GET request
+
+
      EG : http://127.0.0.1:8000/api/comment/57b58d09-a7e3-4b13-a08d-11fdd1ea039b/
   thw field  replies are the reply to that comment 
   successfully implemented nested reples , comment module
@@ -256,6 +311,8 @@ Thia is the simple blog website with CRUDE operations
 
 
 10  > to create new comment make POST request to http://127.0.0.1:8000/api/comment/<slug:ID-OF BLOG>/
+
+
     EG : http://127.0.0.1:8000/api/comment/57b58d09-a7e3-4b13-a08d-11fdd1ea039b/
     
     
@@ -287,6 +344,8 @@ Thia is the simple blog website with CRUDE operations
     
     
 11  > To reply any comment make PUT request to http://127.0.0.1:8000/api/comment/<slug:ID-OF BLOG>/
+
+
     EG : http://127.0.0.1:8000/api/comment/57b58d09-a7e3-4b13-a08d-11fdd1ea039b/
     
      NOTE : 
@@ -318,6 +377,8 @@ Thia is the simple blog website with CRUDE operations
     
     
 12  > To search a blog with keyword make POST request to  http://127.0.0.1:8000/api/search/
+
+
     NOTE : search will take keywords  and try to search it in title of each blog post and return the blog which matches to that keyword
 
               input formar : 
